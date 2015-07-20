@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+        <!--<item name="colorPrimaryLight">#FFCDD2</item>-->
+        <item name="colorAccent">#03A9F4</item>
+        <!--<item name="textIcons">#FFFFFF</item>-->
+        <!--<item name="primaryText">#212121</item>-->
+        <!--<item name="secondaryText">#727272</item>-->
+        <!--<item name="dividerColor">#B6B6B6</item>-->
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+</resources>
